@@ -1,0 +1,60 @@
+﻿ /*    OTHER STUFF  -----------------------------------------------  */
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*    BODY  -----------------------------------------------  */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+/*    JUMBOTRON  -----------------------------------------------  */
+.jumbotron .lead {
+    text-shadow: black 1px 1px;
+}
+
+.jumbotron h1 {
+    font-size: 8em;
+    font-weight: 900;
+    text-shadow: black 4px 4px;
+}
+
+
+
+/*    ARTICLE HEADLINES  -----------------------------------------------  */
+.headline {
+    color: #df691a;
+    font-weight: bold;
+}
+
+
+ .headline_pic {
+     border-radius: 50%;
+     max-width: 250px;
+     max-height: 250px;
+ }
+
+
+
+
+
