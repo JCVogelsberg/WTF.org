@@ -34,7 +34,7 @@ body {
 }
 
 .jumbotron h1 {
-    font-size: 8em;
+    /*font-size: 8em;*/
     font-weight: 900;
     text-shadow: black 4px 4px;
 }
